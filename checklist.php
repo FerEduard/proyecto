@@ -32,7 +32,16 @@
               <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Periodos</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Check List</h6>
+                  <div>
+                  	<span>Periodo</span>
+                    <select name="periodo" id="">
+                    	<option value="3">Enero a Diciembre 2019</option>
+                        <option value="2">Enero a Diciembre 2018</option>
+                        <option value="1">Enero a Diciembre 2017</option>
+                    </select>
+                  </div>
+                  
                 </div>
                 <!-- Card Body -->
                 <div class="card-body">
@@ -40,68 +49,44 @@
                       <thead>
                         <tr>
                           <th scope="col">#</th>
-                          <th scope="col">Inicio</th>
-                          <th scope="col">Fin</th>
-                          <th scope="col"><a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-plus"></i>
-                              </a>
-                          </th>
-                          <th>Generar</th>
+                          <th scope="col">Estado</th>
+                          <th scope="col">Artículo</th>
+                          <th scope="col">Requerimiento</th>
+                          <th scope="col">Detalle</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td>01/01/2017</td>
-                          <td>31/12/2017</td>
+                          <td><p class="btn btn-info btn-circle">3</p></td>
+                          <td>13</td>
+                          <td>Se evaluan y tratan adecuadamente los riesgos tecnológicos en los sistemas de información e infraestructura tecnológica.</td>
                           <td>
                           	  <a href="#" class="btn btn-success btn-circle">
-                          		<i class="fas fa-pen"></i>
+                          		<i class="fas fa-list"></i>
                               </a>
-                              <a href="#" class="btn btn-danger btn-circle">
-                          		<i class="fas fa-trash"></i>
-                              </a>
-                          </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
                           </td>
                         </tr>
                         <tr>
                           <th scope="row">2</th>
-                          <td>01/01/2018</td>
-                          <td>31/12/2018</td>
+                          <td><p class="btn btn-warning btn-circle">2</p></td>
+                          <td>15</td>
+                          <td>Se evaluan y tratan adecuadamente los riesgos tecnológicos en los sistemas de información e infraestructura tecnológica.</td>
                           <td>
                           	  <a href="#" class="btn btn-success btn-circle">
-                          		<i class="fas fa-pen"></i>
+                          		<i class="fas fa-list"></i>
                               </a>
-                              <a href="#" class="btn btn-danger btn-circle">
-                          		<i class="fas fa-trash"></i>
-                              </a>
-                          </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
                           </td>
                         </tr>
                         <tr>
                           <th scope="row">3</th>
-                          <td>01/01/2019</td>
-                          <td>31/12/2019</td>
+                          <td><p class="btn btn-danger btn-circle">0</p></td>
+                          <td>15</td>
+                          <td>Se evaluan y tratan adecuadamente los riesgos tecnológicos en los sistemas de información e infraestructura tecnológica.</td>
                           <td>
                           	  <a href="#" class="btn btn-success btn-circle">
-                          		<i class="fas fa-pen"></i>
+                          		<i class="fas fa-list"></i>
                               </a>
-                              <a href="#" class="btn btn-danger btn-circle">
-                          		<i class="fas fa-trash"></i>
-                              </a>
-                          </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
                           </td>
                         </tr>
                       </tbody>

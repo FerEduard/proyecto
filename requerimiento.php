@@ -44,9 +44,7 @@
                           <th scope="col">Fin</th>
                           <th scope="col"><a href="#" class="btn btn-info btn-circle">
                           		<i class="fas fa-plus"></i>
-                              </a>
-                          </th>
-                          <th>Generar</th>
+                              </a></th>
                         </tr>
                       </thead>
                       <tbody>
@@ -62,11 +60,6 @@
                           		<i class="fas fa-trash"></i>
                               </a>
                           </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
-                          </td>
                         </tr>
                         <tr>
                           <th scope="row">2</th>
@@ -80,11 +73,6 @@
                           		<i class="fas fa-trash"></i>
                               </a>
                           </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
-                          </td>
                         </tr>
                         <tr>
                           <th scope="row">3</th>
@@ -97,11 +85,6 @@
                               <a href="#" class="btn btn-danger btn-circle">
                           		<i class="fas fa-trash"></i>
                               </a>
-                          </td>
-                          <td>
-                          	<a href="#" class="btn btn-info btn-circle">
-                          		<i class="fas fa-list-alt"></i>
-                            </a>
                           </td>
                         </tr>
                       </tbody>

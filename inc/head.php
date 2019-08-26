@@ -37,9 +37,9 @@
           	<h6 class="collapse-header">Tiempo</h6>
             <a class="collapse-item" href="periodo.php">Periodos</a>
             <h6 class="collapse-header">Cumplimiento</h6>
-            <a class="collapse-item" href="cards.html">Artículos</a>
-            <a class="collapse-item" href="cards.html">Requerimientos</a>
-            <a class="collapse-item" href="cards.html">Sanciones</a>
+            <a class="collapse-item" href="articulo.php">Artículos</a>
+            <a class="collapse-item" href="requerimiento.php">Requerimientos</a>
+            <a class="collapse-item" href="sancion.php">Sanciones</a>
           </div>
         </div>
       </li>
@@ -52,8 +52,8 @@
         </a>
         <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="utilities-color.html">Roles</a>
-            <a class="collapse-item" href="utilities-border.html">Usuarios</a>
+            <a class="collapse-item" href="#">Roles</a>
+            <a class="collapse-item" href="#">Usuarios</a>
           </div>
         </div>
       </li>
@@ -68,7 +68,7 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="checklist.php">
           <i class="fas fa-fw fa-tasks"></i>
           <span>Check List</span></a>
       </li>
